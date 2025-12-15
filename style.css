@@ -1,71 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+.hero-section {
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
-body {
-  background: #0f172a;
-  color: white;
-  scroll-behavior: smooth;
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #0dcaf0;
+  object-fit: cover;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  background: #020617;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 40px;
-  z-index: 1000;
-}
-
-.logo {
-  color: #38bdf8;
-}
-
-.logo span {
-  color: #facc15;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-section {
-  min-height: 100vh;
-  padding: 120px 80px;
-}
-
-#home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#home span {
-  color: #38bdf8;
-}
-
-.skill-box span {
-  display: inline-block;
+.skill-card {
   background: #1e293b;
-  padding: 10px 15px;
-  margin: 8px;
-  border-radius: 8px;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: transform 0.3s;
 }
 
-.project {
-  background: #1e293b;
-  padding: 20px;
-  margin: 15px 0;
-  border-left: 4px solid #38bdf8;
+.skill-card:hover {
+  transform: translateY(-5px);
+  background: #0dcaf0;
+  color: black;
+}
+
+.project-card {
+  background: #111827;
+  border-left: 5px solid #0dcaf0;
+  color: white;
 }
