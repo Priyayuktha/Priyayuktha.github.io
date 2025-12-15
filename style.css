@@ -22,6 +22,21 @@ body {
   object-fit: cover;
 }
 
+/* HERO IMAGE (LEFT SIDE) */
+.hero-profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0dcaf0;
+}
+
+/* HERO TEXT */
+.hero-desc {
+  max-width: 520px;
+  line-height: 1.7;
+}
+
 /* SKILLS */
 .skill-card {
   background: #111827;
