@@ -36,3 +36,9 @@ body {
   border-left: 5px solid #0dcaf0;
   color: white;
 }
+.about-card {
+  background: #020617;
+  border-left: 5px solid #0dcaf0;
+  border-radius: 15px;
+  line-height: 1.8;
+}
