@@ -42,3 +42,48 @@ body {
   border-radius: 15px;
   line-height: 1.8;
 }
+.footer {
+  background: #020617;
+  padding: 40px 0 20px;
+  margin-top: 80px;
+  color: #d1d5db;
+}
+
+.footer-title {
+  color: #0dcaf0;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  margin: 6px 0;
+}
+
+.footer-text a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #0dcaf0;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #0dcaf0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #9ca3af;
+}
