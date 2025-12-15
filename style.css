@@ -87,3 +87,8 @@ body {
   font-size: 13px;
   color: #9ca3af;
 }
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
